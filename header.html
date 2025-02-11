@@ -1,0 +1,98 @@
+<div class="wp">
+    <div class="up">
+        <div class="left">
+            <a href="#about">About</a>
+            <a href="#website">Website</a>
+            <a href="#government">Government</a>
+            <a href="#dashboard">Dashboard</a>
+        </div>
+        <a href="#contact">Contact</a>
+    </div>
+    <nav>
+        <span></span>
+        <span></span>
+        <span></span>
+    </nav>
+     <div class="menu">
+        <a href="#about">About</a>
+        <a href="#website">Website</a>
+        <a href="#government">Government</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+<h1>期許自己,能夠用不一樣的角度觀察,創造暖心的作品。</h1>
+<div class="bg"></div>
+
+<script>
+/*menu*/
+$(window).resize(function(){
+    var $H=$(window).height();
+    $('header .menu').height($H-80);
+    $('header .bg').height($H);
+    $('header .menu').hide();
+    $('header .bg').hide();
+     $('header nav').removeClass('menuOpen');
+});
+var $H=$(window).height();
+$('header .menu').height($H-80);
+$('header .bg').height($H);
+$('header nav').click(function(){
+    $('header .menu').slideToggle().css('display','flex');
+    $('header .bg').toggle();
+    $('header nav').toggleClass('menuOpen');
+});
+
+$('header .menu a').click(function () {
+    $('header nav').toggleClass('menuOpen');
+                $('header .menu').slideUp();
+                $('header .bg').hide();
+                $("body").removeClass('menuOpen');
+                $('header').removeClass('open');
+                $('body').css('overflow-y', 'auto');
+            });
+
+
+
+$('header .bg').click(function(){
+    $('header .menu').fadeToggle();
+    $('header .bg').toggle();
+    $('header nav').toggleClass('menuOpen'); 
+});
+
+    $('a[href=#about]').click(function () {
+        $('html,body').animate({
+            scrollTop: $('#about').offset().top - 61
+        }, 800);
+    });
+        
+    $('a[href=#website]').click(function () {
+            $('html,body').animate({
+                scrollTop: $('#website').offset().top - 61
+            }, 800);
+    });
+    $('a[href=#government]').click(function () {
+            $('html,body').animate({
+                scrollTop: $('#government').offset().top - 61
+            }, 800);
+    });
+    $('a[href=#dashboard]').click(function () {
+            $('html,body').animate({
+                scrollTop: $('#dashboard').offset().top - 61
+            }, 800);
+    });
+    $('a[href=#contact]').click(function () {
+        
+            $('html,body').animate({
+                scrollTop: $('#contact').offset().top - 61
+            }, 800);
+    });
+
+    $(document).scroll(function(){
+            if($(this).scrollTop() > 100){
+                $('header').addClass('scroll');
+            }else{
+                $('header').removeClass('scroll');
+            }
+        });
+</script> 
