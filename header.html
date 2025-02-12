@@ -41,6 +41,7 @@ $('header nav').click(function(){
     $('header .menu').slideToggle().css('display','flex');
     $('header .bg').toggle();
     $('header nav').toggleClass('menuOpen');
+    $('body').css('overflow-y', 'hidden');
 });
 
 $('header .menu a').click(function () {
