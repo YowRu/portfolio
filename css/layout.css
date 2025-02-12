@@ -28,7 +28,7 @@ header {
     z-index: 3;
 }
 header.scroll{
-    background: rgba(226, 206, 180, 0.85);
+    background: rgba(212, 189, 165, .8);
 }
 header .wp {
     max-width: 1440px;
