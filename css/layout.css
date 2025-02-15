@@ -112,7 +112,7 @@ header .menu a {
     width: 100%;
     font-size: 1rem;
     color: #444;
-    background-color: #E2CEB4;
+    background-color: #CFA383;
     text-decoration: none;
     flex: 1;
 }
@@ -173,7 +173,7 @@ header .bg {
     left: 0;
     z-index: -1;
     display: none;
-    background: #E2CEB4;
+    background: #CFA383;
 }
 
 /*main*/
