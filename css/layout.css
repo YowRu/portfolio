@@ -261,7 +261,7 @@ padding:140px 140px 0;
 }
 #main>.r.website{
     /* border-top:2px solid #F3DCC4; */
-    border-top:2px solid #fff;
+    border-top:1px solid #fff;
     max-width: 1160px;
     padding: 140px 0 0;
 }
