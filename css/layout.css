@@ -171,8 +171,9 @@ header .bg {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: -1;
     display: none;
+    background: #E2CEB4;
 }
 
 /*main*/
