@@ -6,11 +6,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Inter", serif;
+    font-family: "Roboto Serif", serif;
     position: relative;
     background: url('../img/bg.png') no-repeat top center;
     background-size: cover;
     color: #4E4E4E;
+    color: #fff;
 }
 
 
@@ -28,7 +29,10 @@ header {
     z-index: 3;
 }
 header.scroll{
-    background: rgba(212, 189, 165, .8);
+    /* background: rgba(211, 176, 147, .8); */
+background: linear-gradient(to bottom,  #e0bfaa 0%,#cfa383d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
 }
 header .wp {
     max-width: 1440px;
@@ -70,10 +74,11 @@ header .up {
 
 header .up a {
     color: #616161;
+    color: #fff;;
     text-decoration: none;
     display: inline-block;
     width: auto;
-    
+    font-family: "Inter", serif;
 }
 
 header .up .left a{
@@ -187,7 +192,7 @@ header .bg {
     line-height: 2rem;
     text-align: center;
     margin: 5px auto;
-    color: #515151;
+    color: #787878;
     font-size: 1rem;
     text-decoration: none;
     padding: 0 5px;
@@ -253,7 +258,8 @@ padding:140px 140px 0;
     margin:60px auto 0 ;
 }
 #main>.r.website{
-    border-top:2px solid #F3DCC4;
+    /* border-top:2px solid #F3DCC4; */
+    border-top:2px solid #fff;
     max-width: 1160px;
     padding: 140px 0 0;
 }
@@ -265,6 +271,7 @@ padding:140px 140px 0;
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 } 
 
 .flex .content{
@@ -276,16 +283,16 @@ padding:140px 140px 0;
     background: rgba(255, 255, 255, 0.47);
     text-align: center;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 .flex .content .img{
     width: 100%;
     height: 230px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 #main>.r.website .img{
-        border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 
@@ -636,8 +643,4 @@ footer {
     .flex .content .img {
         height: 200px;
     }
-}
-
-@media(max-width:320px) {
-  
 }
