@@ -135,6 +135,7 @@ header nav span {
     background-color: #fff;
     -webkit-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
+    border-radius: 1px;
 }
 
 header nav span:nth-of-type(1) {
