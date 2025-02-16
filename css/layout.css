@@ -279,6 +279,9 @@ background: linear-gradient(to bottom right, rgba(214, 180, 157, 0.00) 0%,
     linear-gradient(to top right, rgba(214, 180, 157, 0.00) 0%,
                     #CF9E7E 50%) top right / 50% 50% no-repeat;
 }
+#main>.r.website .flex .content:hover p{
+    color:#fff;
+}
 #main>.r .width{
     margin-bottom: 68px;
 }
