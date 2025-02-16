@@ -266,6 +266,19 @@ padding:140px 140px 0;
     max-width: 1160px;
     padding: 140px 0 0;
 }
+#main>.r.website .flex .content:hover img{
+    transform: scale(1.5);
+}
+#main>.r.website .flex .content:hover {
+background: linear-gradient(to bottom right, rgba(214, 180, 157, 0.00) 0%,
+                            #CF9E7E 50%) bottom right / 50% 50% no-repeat,
+    linear-gradient(to bottom left, rgba(214, 180, 157, 0.00) 0%,
+                    #CF9E7E 50%) bottom left / 50% 50% no-repeat,
+    linear-gradient(to top left, rgba(214, 180, 157, 0.00) 0%,
+                    #CF9E7E 50%) top left / 50% 50% no-repeat,
+    linear-gradient(to top right, rgba(214, 180, 157, 0.00) 0%,
+                    #CF9E7E 50%) top right / 50% 50% no-repeat;
+}
 #main>.r .width{
     margin-bottom: 68px;
 }
