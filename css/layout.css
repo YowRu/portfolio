@@ -270,14 +270,15 @@ padding:140px 140px 0;
     transform: scale(1.5);
 }
 #main>.r.website .flex .content:hover {
-background: linear-gradient(to bottom right, rgba(214, 180, 157, 0.00) 0%,
-                            #CF9E7E 50%) bottom right / 50% 50% no-repeat,
-    linear-gradient(to bottom left, rgba(214, 180, 157, 0.00) 0%,
-                    #CF9E7E 50%) bottom left / 50% 50% no-repeat,
-    linear-gradient(to top left, rgba(214, 180, 157, 0.00) 0%,
-                    #CF9E7E 50%) top left / 50% 50% no-repeat,
-    linear-gradient(to top right, rgba(214, 180, 157, 0.00) 0%,
-                    #CF9E7E 50%) top right / 50% 50% no-repeat;
+background: linear-gradient(to bottom right, rgba(255, 250, 247, 0.937) 0%,
+                            #d4a28295 50%) bottom right / 50% 50% no-repeat,
+    linear-gradient(to bottom left, rgba(255, 242, 234, 0.921) 0%,
+                    #cf9e7ea8 50%) bottom left / 50% 50% no-repeat,
+    linear-gradient(to top left, rgba(252, 229, 214, 0.961) 0%,
+                    #cf9e7eb1 50%) top left / 50% 50% no-repeat,
+    linear-gradient(to top right, rgb(253, 230, 215) 0%,
+                    #cf9e7ec7 50%) top right / 50% 50% no-repeat;
+                    border: 0.5px solid #ffffff49;
 }
 #main>.r.website .flex .content:hover p{
     color:#fff;
