@@ -310,14 +310,24 @@ background: linear-gradient(to bottom right, rgba(255, 250, 247, 0.937) 0%,
     height: 230px;
     object-fit: cover;
     border-radius: 6px;
-    transform:scale(1,1);transition: all 1s ease-out;
+    overflow: hidden;
 }
 #main>.r.website .img{
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.website .flex .content:nth-child(1) .img{
+.flex .content .img img{
+    /* width: 130%;
+    margin-left: -15%; */
+    width: 100%;
+    transform:scale(1,1);
+    transition: all 1s ease-out;
+}
+.flex .content:hover img{
+    transform:scale(1.2,1.2);
+ }
+/* .website .flex .content:nth-child(1) .img{
     background: url('../img/web/chainStar.png') no-repeat center;
     background-size: cover;
 }
@@ -352,10 +362,10 @@ background: linear-gradient(to bottom right, rgba(255, 250, 247, 0.937) 0%,
 .website .flex .content:nth-child(9) .img{
     background: url('../img/web/Jintai.png') no-repeat center;
     background-size: cover;
-}
+}*/
 
 .government .flex.flex1 .content:nth-child(1) .img{
-    background: url('../img/web/2.png') no-repeat center;
+    background: url('../img/web/2.png') no-repeat center 17%;
     background-size: cover;
 }
 .government .flex.flex1 .content:nth-child(2) .img{
@@ -373,7 +383,7 @@ background: linear-gradient(to bottom right, rgba(255, 250, 247, 0.937) 0%,
 .government .flex.flex2 .content:nth-child(3) .img{
     background: url('../img/web/SAB.png') no-repeat center;
     background-size: cover;
-}
+} 
 .government .flex.flex1 {
     justify-content:space-between;
     
@@ -387,11 +397,11 @@ max-width: none;
     max-width: none;
     }
     .dashboard .flex{flex-wrap: nowrap;}
-    .dashboard .flex.flex1 .content:nth-child(1) .img{
+    .dashboard .flex.flex1 .content:nth-child(2) .img{
         background: url('../img/web/cms.png') no-repeat center;
         background-size: cover;
     }
-    .dashboard .flex.flex1 .content:nth-child(2) .img{
+    .dashboard .flex.flex1 .content:nth-child(1) .img{
         background: url('../img/web/dashboard.png') no-repeat center;
         background-size: cover;
     }
