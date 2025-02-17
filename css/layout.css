@@ -267,7 +267,7 @@ padding:140px 140px 0;
     padding: 140px 0 0;
 }
 #main>.r.website .flex .content:hover img{
-    transform: scale(1.5);
+    transform: scale(2);
 }
 #main>.r.website .flex .content:hover {
 background: linear-gradient(to bottom right, rgba(255, 250, 247, 0.937) 0%,
