@@ -267,7 +267,7 @@ padding:140px 140px 0;
     padding: 140px 0 0;
 }
 #main>.r.website .flex .content:hover img{
-    transform: scale(2);
+   {transform:scale(1.2,1.2);}
 }
 #main>.r.website .flex .content:hover {
 background: linear-gradient(to bottom right, rgba(255, 250, 247, 0.937) 0%,
@@ -310,6 +310,7 @@ background: linear-gradient(to bottom right, rgba(255, 250, 247, 0.937) 0%,
     height: 230px;
     object-fit: cover;
     border-radius: 6px;
+    transform:scale(1,1);transition: all 1s ease-out;
 }
 #main>.r.website .img{
     border-bottom-left-radius: 0;
